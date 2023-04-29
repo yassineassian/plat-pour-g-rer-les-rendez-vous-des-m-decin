@@ -1,0 +1,36 @@
+body {
+    background-color: #bbdefb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20%;
+    padding: 40px 5%;
+    border: 2px solid;
+    background-color: white;
+}
+
+label {
+    font-weight: 700;
+    font-family: system-ui;
+}
+input {
+    height: 20px;
+}
+input#photo {
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+input#sub {
+    font-weight: 900;
+    font-size: 1.1em;
+    height: 40px;
+    background-color: #64b5f6;
+    color: white;
+    border: 1px solid black;
+}
+input#sub:hover{
+    transform: scale(1.05);
+}

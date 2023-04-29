@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10%;
+    border: 3px solid;
+    border-radius: 20px;
+    background-color: #eeeeee;
+}
+
+.user img {
+    width: 160px;
+    padding: 10px;
+}
+
+.name {
+    padding-top: 5px;
+    padding-right: 5%;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.name h2 {
+    margin-bottom: 10px;
+}
+
+.phone img {
+    width: 22px;
+}
+
+.mail img {
+    width: 22px;
+}
+
+span {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.stars img {
+    width: 26px;
+}
+
+.mail {
+    padding-bottom: 5px;
+}
+
+.prix {
+    align-self: center;
+    padding-right: 7%;
+    font-family: system-ui;
+    font-size: 1.15em;
+    color: #e91e63;
+}
+
+.submit {
+    width: 30%;
+    align-self: center;
+}
+
+input {
+    font-family: system-ui;
+    font-weight: 800;
+    padding: 9px 35px;
+    color: white;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+input#acc {
+    background-color: #8bc34a;
+}
+
+input#ref {
+    background-color: red;
+}
+
+#acc:hover {
+    transform: scale(1.06);
+}
+
+#ref:hover {
+    transform: scale(1.06);
+}
+
+.contacter {
+    align-self: center;
+    display: none;
+}
+
+input#con {
+    background-color: #2196f3;
+    padding: 12px 50px;
+    font-size: 1.1em;
+}
+
+#con:hover {
+    transform: scale(1.06);
+}

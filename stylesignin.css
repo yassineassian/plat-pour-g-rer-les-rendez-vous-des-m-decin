@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #90caf9;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 170px;
+    width: 40%;
+    padding: 100px 50px;
+    background-color: #0e0e0e;
+}
+
+
+
+
+input {
+    width: 75%;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 30px;
+    margin: 3px 20px;  
+}
+ 
+#submit{
+    width: 82%;
+    padding: 0px;
+    background-color: #42a5f5;
+    font-size: 1.1em;
+    font-weight: 900;
+    font-family: system-ui;
+    color: white;
+    margin-top: 20px;
+}
+#submit:hover{
+    transform: scale(1.05);
+   }

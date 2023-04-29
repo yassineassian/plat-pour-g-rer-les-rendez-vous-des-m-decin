@@ -1,0 +1,101 @@
+body {
+    background-color: #e3f2fd;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 5%;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid #42a5f5;
+}
+
+.profil {
+    padding: 20px;
+}
+
+.profil img {
+    width: 110px;
+    padding: 10px;
+}
+
+.profil h3 {
+    margin-top: 0px;
+    font-family: system-ui;
+    color: #2196f3;
+    text-align: center;
+}
+
+.cord {
+    padding: 10px 50px;
+}
+
+.cord h2 {
+    font-family: system-ui;
+    margin-bottom: 10px;
+    color: #2196f3;
+    padding-left: 8px;
+}
+
+.com {
+    display: flex;
+}
+
+.lieu img {
+    width: 35px;
+    padding-right: 10px;
+}
+
+.cord span {
+    font-family: system-ui;
+    padding-top: 5px;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.date img {
+    width: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.phone img {
+    width: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.prix {
+    align-self: center;
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 1.45em;
+    color: #1565c0;
+    padding: 20px;
+    padding-left: 8px;
+}
+
+.offre {
+    align-self: center;
+
+}
+
+.offre button {
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #2196f3;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.offre button:hover {
+    transform: scale(1.1);
+
+}
